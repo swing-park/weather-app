@@ -10,7 +10,7 @@ import {
 } from "react-native";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
-const API_KEY = "98fd8fa0e9dabdd59e80a519e012693f";
+const API_KEY = "";
 
 export default function App() {
   const [city, setCity] = useState("Loading...");
